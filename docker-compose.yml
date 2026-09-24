@@ -1,0 +1,12 @@
+services:
+  app:
+    build:
+      context: .
+      args:
+        # Read from the host environment or a .env file next to this compose file.
+        # The key is inlined into the client bundle at build time (see vite.config.ts).
+        GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+    image: itihasa
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
