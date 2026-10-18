@@ -287,7 +287,7 @@ export default function App() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-[15vw] md:text-[12vw] leading-[0.8] text-maroon font-black drop-shadow-[0_10px_30px_rgba(128,0,0,0.1)] select-none"
             >
-              ITIHASA
+              ITIHASA yyyyyy
             </motion.h1>
             <motion.div
               initial={{ scaleX: 0 }}
