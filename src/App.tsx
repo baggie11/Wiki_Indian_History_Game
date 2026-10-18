@@ -243,7 +243,7 @@ export default function App() {
     try {
       const response = await ai.models.generateContent({
         model: "gemini-3-flash-preview",
-        contents: `I am playing a timeline game about Indian history and mythology. 
+        contents: `I am playing a timeline mmmmmmgame about Indian history and mythology. 
         The current card is: "${currentCard.title}: ${currentCard.description}".
         The timeline currently has these events in order: ${timeline.map(e => e.title).join(', ')}.
         Give me a subtle hint about where this card belongs without giving away the exact date or position. 
@@ -303,7 +303,7 @@ export default function App() {
             transition={{ delay: 1 }}
             className="text-xl md:text-2xl font-manuscript italic text-maroon/80 mb-16 max-w-2xl leading-relaxed"
           >
-            "Time is not a line, but a circle. Navigate the currents of history and myth to restore the cosmic balance."
+            "Time is not a line, but a circle. mmmmmmmmmmmmmmmmNavigate the currents of history and myth to restore the cosmic balance."
           </motion.p>
           
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 w-full mb-20">
