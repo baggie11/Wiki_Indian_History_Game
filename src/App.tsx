@@ -303,7 +303,7 @@ export default function App() {
             transition={{ delay: 1 }}
             className="text-xl md:text-2xl font-manuscript italic text-maroon/80 mb-16 max-w-2xl leading-relaxed"
           >
-            "Time is not a line, but a circljjjjjjje. mmmmmmmmmmmmmmmmNavigate the currents of history and myth to restore the cosmic balance."
+            "Time is not a line, but a  sregamapa pada neesa circljjjjjjje. mmmmmmmmmmmmmmmmNavigate the currents of history and myth to restore the cosmic balance."
           </motion.p>
           
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 w-full mb-20">
